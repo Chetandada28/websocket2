@@ -1,18 +1,11 @@
 const WebSocket = require('ws');
 
-      let HOST = location.origin.replace(/^http/, 'ws')
-     
-      let el;
-
      
    
 
 const wss =  new WebSocket(HOST);
 
-wss.onmessage = (event) => {
-  el = document.getElementById('server-response');
-  el.innerHTML = 'Server response: ' + event.data;
-};
+
 
 wss.on('connection', function connection(wss) {
   wss.on('message', function incoming(message) {
