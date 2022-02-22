@@ -1,0 +1,22 @@
+{
+  "name": "websockets-vanilla",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "description": "This example accompanies the [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets) tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "express": "^4.17.3",
+    "utf-8-validate": "^5.0.8",
+    "ws": "^7.5.7"
+  },
+  "devDependencies": {}
+}
